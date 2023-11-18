@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Obra
+comment1.params=isbn\ nome\ editora\ anoPubli
+comment1.target=Obra(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ retiraObra()
+comment3.params=
+comment3.target=void\ devolveObra()
+comment4.params=
+comment4.target=int\ getCopias()
+comment5.params=c
+comment5.target=void\ setCopias(int)
+numComments=6

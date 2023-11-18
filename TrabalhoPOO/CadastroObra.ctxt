@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CadastroObra
+comment1.params=
+comment1.target=void\ print()
+comment2.params=
+comment2.target=void\ cadastrarItem()
+comment3.params=
+comment3.target=Obra\ selecionaItem()
+comment4.params=isbn\ quantidade
+comment4.target=void\ adObra(java.lang.String,\ int)
+comment5.params=isbn\ quantidade
+comment5.target=void\ removeObra(java.lang.String,\ int)
+numComments=6

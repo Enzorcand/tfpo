@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Livro
+comment1.params=isbn\ nome\ editora\ anoPubli\ autor
+comment1.target=Livro(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getAutor()
+comment3.params=autor
+comment3.target=void\ setAutor(java.lang.String)
+numComments=4
