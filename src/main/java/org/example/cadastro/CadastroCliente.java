@@ -1,4 +1,7 @@
-package org.example;
+package org.example.cadastro;
+
+import org.example.Cliente;
+import org.example.cadastro.Cadastro;
 
 import java.util.HashMap;
 import java.util.InputMismatchException;

@@ -1,6 +1,7 @@
 package org.example;
 
 import lombok.Data;
+import lombok.SneakyThrows;
 
 import java.io.PrintStream;
 
@@ -26,6 +27,7 @@ public abstract class Obra {
     //retira obra do sistema reduzindo em 1 as obras disponiveis. Caso não tenha obras disponiveis dispara uma exceção.
     // apos efetuar a transação, cadastra o relato da transação no arquivo de texto de relatório. Tambem define
     // o prazo de devolução da obra
+    @SneakyThrows
     public void retiraObra(){
         PrintStream file = new PrintStream("src/main/java/org/example/transacoes.txt");
     }
@@ -33,6 +35,7 @@ public abstract class Obra {
 
     // Verifica o atraso da obra, e se a obra estava realmente retirada. Caso não esteja dispara uma exceção.
     // Após conferencia, calcula quantos dias atrasou, registrando estes dados no arquivo de relatórip.
+    @SneakyThrows
     public void devolveObra(){
         PrintStream file = new PrintStream("src/main/java/org/example/transacoes.txt");
     }

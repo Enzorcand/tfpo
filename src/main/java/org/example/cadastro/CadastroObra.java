@@ -1,4 +1,7 @@
-package org.example;
+package org.example.cadastro;
+
+import org.example.Obra;
+import org.example.cadastro.Cadastro;
 
 import java.util.HashMap;
 import java.util.InputMismatchException;
@@ -34,7 +37,7 @@ public class CadastroObra implements Cadastro<Obra> {
     public void removeObra(String isbn, int quantidade){
         if(obras.get(isbn) != null){
             Obra obra = obras.get(isbn);
-            if(quantidade > obra.copias){
+            if(quantidade > obra.getCopias()){
                 throw new InputMismatchException("Numero de copias invalido");
             }
 
